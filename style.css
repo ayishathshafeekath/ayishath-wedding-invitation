@@ -1,0 +1,124 @@
+body {
+margin: 0;
+font-family: "Arial";
+background: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee") no-repeat center/cover;
+height: 100vh;
+overflow-x: hidden;
+}
+
+/* Dark luxury overlay */
+.overlay {
+background: rgba(0,0,0,0.65);
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+}
+
+/* Main card */
+.card {
+background: rgba(255,255,255,0.97);
+padding: 25px;
+border-radius: 20px;
+max-width: 600px;
+text-align: center;
+box-shadow: 0 0 30px rgba(0,0,0,0.4);
+animation: fadeIn 2s ease;
+}
+
+/* Animations */
+@keyframes fadeIn {
+from {opacity: 0; transform: translateY(20px);}
+to {opacity: 1; transform: translateY(0);}
+}
+
+h1 {
+color: #b8860b;
+font-size: 32px;
+}
+
+.arabic {
+font-size: 20px;
+color: #444;
+}
+
+.quote {
+font-style: italic;
+color: #666;
+}
+
+h2 {
+color: #333;
+margin-top: 10px;
+}
+
+h3 {
+margin: 5px 0;
+}
+
+.date {
+font-size: 18px;
+margin: 10px 0;
+color: #555;
+}
+
+#countdown {
+font-size: 20px;
+color: #b8860b;
+font-weight: bold;
+}
+
+/* RSVP box */
+.rsvp {
+margin-top: 20px;
+padding: 15px;
+border: 1px solid #ddd;
+border-radius: 10px;
+}
+
+.rsvp input {
+width: 90%;
+padding: 10px;
+margin: 5px;
+border-radius: 8px;
+border: 1px solid #ccc;
+}
+
+/* Buttons */
+.buttons {
+margin-top: 15px;
+}
+
+.btn {
+display: inline-block;
+padding: 10px 15px;
+margin: 5px;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+}
+
+.gold {
+background: #b8860b;
+}
+
+.green {
+background: #25D366;
+}
+
+/* Gallery */
+.gallery {
+margin-top: 15px;
+}
+
+.gallery img {
+width: 30%;
+border-radius: 10px;
+margin: 3px;
+transition: 0.3s;
+}
+
+.gallery img:hover {
+transform: scale(1.05);
+}
